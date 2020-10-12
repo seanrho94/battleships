@@ -69,7 +69,7 @@ Destroyer at C 3 H
   1 2 3 4 5 6 7 8
 A| | | | | | | | |
 B| | | | | | | | |
-C| | |*|*|*| | | |
+C| | |*\*|*| | | |
 D| | | | | | | | |
 E| | | | | | | | |
 F| | | | | | | | |
@@ -80,7 +80,7 @@ H| | | | | | | | |
 Top to bottom placement
 
 ```
-Destroyer at D 2 V
+Destroyer at D 3 V
 
   1 2 3 4 5 6 7 8
 A| | | | | | | | |
@@ -108,19 +108,19 @@ Your program must support the following commands
 
 ```
 Player 1, please set up your ships (x, y, orientation)
-Carrier: A 0 H
-Battleship: D 5 V
-Destroyer: C 5 H
-Submarine: A 2 H
-Patrol Boat: G 7 H
+Carrier: A 1 H
+Battleship: C 2 H
+Destroyer: E 2 H
+Submarine: F 7 V
+Patrol Boat: G 8 V
 
 
 Player 2, please set up your ships (x, y, orientation)
-Carrier: A 0 H
-Battleship: D 5 V
-Destroyer: C 5 H
-Submarine: A 2 H
-Patrol Boat: G 7 H
+Carrier: A 1 H
+Battleship: C 2 H
+Destroyer: E 2 H
+Submarine: F 7 V
+Patrol Boat: G 8 V
 
 All boats set up, Player 1 can now strike.
 ```
@@ -202,23 +202,23 @@ H| | | | | | | | |
 
 ```
 Player 1, please set up your ships (x, y, orientation)
-Carrier: A 0 H
-Battleship: D 5 V
-Destroyer: C 5 H
-Submarine: A 2 H
-Patrol Boat: G 7 H
+Carrier: A 1 H
+Battleship: C 2 H
+Destroyer: E 2 H
+Submarine: F 7 V
+Patrol Boat: G 8 V
 
 
 Player 2, please set up your ships (x, y, orientation)
-Carrier: A 0 H
-Battleship: D 5 V
-Destroyer: C 5 H
-Submarine: A 2 H
-Patrol Boat: G 7 H
+Carrier: A 1 H
+Battleship: C 2 H
+Destroyer: E 2 H
+Submarine: F 7 V
+Patrol Boat: G 8 V
 
 All boats set up, Player 1 can now strike.
 
-fire A 1
+fire A 7
 
 You have missed!
 
@@ -236,7 +236,7 @@ F| | | | | | | | |
 G| | | | | | | | |
 H| | | | | | | | |
 
-fire C 3
+fire G 2
 
 You have missed!
 
@@ -245,7 +245,7 @@ Player 1's turn
 shots
 
   1 2 3 4 5 6 7 8
-A|0| | | | | | | |
+A| | | | | | |0| |
 B| | | | | | | | |
 C| | | | | | | | |
 D| | | | | | | | |
@@ -254,7 +254,7 @@ F| | | | | | | | |
 G| | | | | | | | |
 H| | | | | | | | |
 
-fire B 2
+fire C 2
 
 We have hit the target!
 
@@ -290,7 +290,7 @@ Player 1 wins!
 
 ```
 Player 1, please set up your ships (x, y, orientation)
-Carrier: A 0 H
+Carrier: A 1 H
 Battleship: D 5 V
 Destroyer: C 9 H
 Invalid ship configuration
